@@ -18,8 +18,21 @@ A training set should comprise of:
 
 1. Positive images: these images should contain only the object you are trying to detect
 2. Negative images: these images can contain anything except for the object you are detecting
+[diversity figure]
 
 
+The results of the trained nanoparticle detector on a test image are as follows: Normal (Gray-scale image)> HOG descriptors
+[pos_neg_hog]
 
+The original TEM image of nanoparticle samples.
+[...0002]
 
+After classifying with a trained SVM model and applying NMS the following result is achieved:
+[bbox...0002]
+
+Implement RANSAC algorithm to measure size of nanoparticle in each bounding boxes.
+[ransac]
+
+Plot the nanoparticle size distribution.
+[distribution...0002]
 
