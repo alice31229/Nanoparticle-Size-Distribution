@@ -22,22 +22,22 @@ A training set should comprise of:
 
 
 The results of the trained nanoparticle detector on two test images(a positive and a negative samples) are as follows: Normal (Gray-scale image)> HOG descriptors
-[pos_neg_hog]
+![hog](asset/pos_neg_hog.png)
 
 The original TEM image of nanoparticle samples.
-[...0002]
+![original_img](asset/NaYbF4_15Er_Lu_13nm_0002.png)
 
 After classifying with a trained SVM model and applying NMS the following result is achieved:
-[bbox...0002]
+![sw_img](asset/bbox_NaYbF4_15Er_Lu_13nm_0002.png)
 
 Implement RANSAC algorithm to measure size of nanoparticle in each bounding boxes.
-[ransac]
+![ransac](asset/ransac.png)
 
 Plot the nanoparticle size distribution.
-[distribution...0002]
+![distribution](asset/distribution_NaYbF4_15Er_Lu_13nm_0002.png)
 
 As we intend to run a large amount of TEM images, the overall mean size and distribution between respective mean size and distribution are demonstrated. 
-[diameter_mean]
-[hist_overlap_addmain]
+![diameter_mean](asset/diameter_mean.png)
+![hist_overlap_addmain](asset/hist_overlap_addmain.png)
 
 
