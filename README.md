@@ -18,7 +18,7 @@ A training set should comprise of:
 
 1. Positive images: these images should contain only the object you are trying to detect
 2. Negative images: these images can contain anything except for the object you are detecting
-<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/diversity.png" width="50%" height="50%" />
+<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/diversity.png" width="60%" height="60%" />
 
 
 The results of the trained nanoparticle detector on two test images(a positive and a negative samples) are as follows: Normal (Gray-scale image)> HOG descriptors
@@ -44,7 +44,7 @@ Plot the nanoparticle size distribution.
 As we intend to run a large amount of TEM images, the overall mean size and distribution between respective mean size and distribution are demonstrated. 
 
 
-<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/diameter_mean.png" width="60%" height="60%" />
-<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/hist_overlap_addmain.png" width="60%" height="60%" />
+<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/diameter_mean.png" width="70%" height="70%" />
+<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/hist_overlap_addmain.png" width="70%" height="70%" />
 
 
