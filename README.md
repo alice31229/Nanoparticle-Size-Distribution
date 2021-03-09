@@ -34,7 +34,7 @@ After classifying with a trained SVM model and applying NMS the following result
 <img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/bbox_NaYbF4_15Er_Lu_13nm_0002.png" width="60%" height="60%" />
 
 Implement RANSAC algorithm to measure size of nanoparticle in each bounding boxes.
-<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/ransac.png" width="50%" height="50%" />
+<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/ransac.png" width="50%" height="50%" />...
 
 Plot the nanoparticle size distribution.
 
