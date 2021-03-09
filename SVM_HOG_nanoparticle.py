@@ -222,7 +222,7 @@ def detect(file,dir):
 	plt.clf() # erase the overlapping hist.
 
 
-directory = r'./test'
+directory = r'./test_img'
 scale_bar = float(input("scale bar: "))
 diameter_nm = []
 for file in os.listdir(directory):
@@ -274,7 +274,7 @@ d_1 = ax.scatter(range(len(d_avg)), np.array(d_avg)-np.array(d_std), alpha = 0.2
 d_2 = ax.scatter(range(len(d_avg)), np.array(d_avg)+np.array(d_std), alpha = 0.25, s=30, c='red')
 
 for i in range(len(d_avg)):
-    #ax.axvline(x=i, ymin=d_avg[i]-d_std[i], ymax=d_avg[i]+d_std[i], ls='-', alpha = 0.25, c='yellow')
+
     ax.plot([i,i], [d_avg[i]-d_std[i], d_avg[i]+d_std[i]], ls='-', alpha = 0.25, c='yellowgreen')
 
 lg2 = plt.legend([d, d_1, true], ['mean of each image', 'mean±standard deviation of each image', "mean of all images"], bbox_to_anchor=(1.05, 1.0), loc='upper left')
