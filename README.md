@@ -19,6 +19,7 @@ A training set should comprise of:
 1. Positive images: these images should contain only the object you are trying to detect
 2. Negative images: these images can contain anything except for the object you are detecting
 ![diversity](asset/diversity.png)
+<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/diversity.png" width="50%" height="50%" />
 
 
 The results of the trained nanoparticle detector on two test images(a positive and a negative samples) are as follows: Normal (Gray-scale image)> HOG descriptors
