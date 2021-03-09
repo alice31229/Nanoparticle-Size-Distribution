@@ -223,7 +223,7 @@ def detect(file,dir):
 
 
 directory = r'./test_img'
-scale_bar = float(input("scale bar: "))
+scale_bar = float(input("scale bar (nm/px): "))
 diameter_nm = []
 for file in os.listdir(directory):
 	if file.endswith(".jpg") or file.endswith(".png"):
