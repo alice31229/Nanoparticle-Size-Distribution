@@ -21,7 +21,7 @@ A training set should comprise of:
 [diversity figure]
 
 
-The results of the trained nanoparticle detector on a test image are as follows: Normal (Gray-scale image)> HOG descriptors
+The results of the trained nanoparticle detector on two test images(a positive and a negative samples) are as follows: Normal (Gray-scale image)> HOG descriptors
 [pos_neg_hog]
 
 The original TEM image of nanoparticle samples.
@@ -35,4 +35,9 @@ Implement RANSAC algorithm to measure size of nanoparticle in each bounding boxe
 
 Plot the nanoparticle size distribution.
 [distribution...0002]
+
+As we intend to run a large amount of TEM images, the overall mean size and distribution between respective mean size and distribution are demonstrated. 
+[diameter_mean]
+[hist_overlap_addmain]
+
 
