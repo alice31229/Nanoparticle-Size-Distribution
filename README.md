@@ -16,7 +16,7 @@ The programming language is python, the following libraries are required:
 
 A training set should comprise of:
 
-1. Positive images: these images should contain only the object you are trying to detect
+1. Positive images: these images should contain only the object(one nanoparticle in the middle of the image here) you are trying to detect
 2. Negative images: these images can contain anything except for the object you are detecting
 <img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/diversity.png" width="60%" height="60%" />
 
