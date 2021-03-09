@@ -22,21 +22,28 @@ A training set should comprise of:
 
 
 The results of the trained nanoparticle detector on two test images(a positive and a negative samples) are as follows: Normal (Gray-scale image)> HOG descriptors
+
+
 <img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/pos_neg_hog.png" width="50%" height="50%" />
 
+
 The original TEM image of nanoparticle samples.
-![original_img](asset/NaYbF4_15Er_Lu_13nm_0002.png)
+<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/NaYbF4_15Er_Lu_13nm_0002.png" width="60%" height="60%" />
 
 After classifying with a trained SVM model and applying NMS the following result is achieved:
-![sw_img](asset/bbox_NaYbF4_15Er_Lu_13nm_0002.png)
+<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/bbox_NaYbF4_15Er_Lu_13nm_0002.png" width="60%" height="60%" />
 
 Implement RANSAC algorithm to measure size of nanoparticle in each bounding boxes.
 <img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/ransac.png" width="50%" height="50%" />
 
 Plot the nanoparticle size distribution.
+
+
 <img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/distribution_NaYbF4_15Er_Lu_13nm_0002.png" width="50%" height="50%" />
 
 As we intend to run a large amount of TEM images, the overall mean size and distribution between respective mean size and distribution are demonstrated. 
+
+
 <img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/diameter_mean.png" width="50%" height="50%" />
 <img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/hist_overlap_addmain.png" width="50%" height="50%" />
 
