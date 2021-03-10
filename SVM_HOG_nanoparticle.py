@@ -214,7 +214,7 @@ def detect(file,dir):
 	        r'$S_D=%.1f$' % (std, ),
 	        r'$n=%.f$' % (count, )))
 
-	plt.text(29, max(hist[0]), textstr,  fontsize=11,
+	plt.text(34, max(hist[0]), textstr,  fontsize=11,
 	        verticalalignment='top', horizontalalignment='left')
 
 	plt.grid(axis='y', alpha=0.75)
