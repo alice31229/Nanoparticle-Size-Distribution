@@ -44,6 +44,8 @@ Plot the nanoparticle size distribution.
 As we intend to run a large amount of TEM images, the overall mean size and distribution between respective mean size and distribution are demonstrated. 
 
 
+<img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/assets/overall_mean_distribution.png" width="70%" height="70%" />
+
 <img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/diameter_mean.png" width="70%" height="70%" />
 <img src="https://github.com/alice31229/Nanoparticle-Size-Distribution/blob/main/asset/hist_overlap_addmain.png" width="70%" height="70%" />
 
