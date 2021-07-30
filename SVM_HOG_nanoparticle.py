@@ -25,12 +25,16 @@ threshold = .3
 
 
 # define the sliding window:
-def sliding_window(image, stepSize, windowSize):# image is the input, step size is the no.of pixels needed to skip and windowSize is the size of the actual window
-    # slide a window across the image
-    for y in range(0, image.shape[0], stepSize):# this line and the line below actually defines the sliding part and loops over the x and y coordinates
-        for x in range(0, image.shape[1], stepSize):
-            # yield the current window
-            yield (x, y, image[y: y + windowSize[1], x: x + windowSize[0]])
+def sliding_window(image, stepSize, windowSize):
+
+    shape = image.shape
+    
+    x1 = np.arange(0,shape[0],stepSize) #y
+    x2 = np.arange(0,shape[1],stepSize) #x
+    comb_array = np.array(np.meshgrid(x1, x2)).T.reshape(-1, 2)
+    
+    for coordinate in comb_array:
+        yield(coordinate[1], coordinate[0], image[coordinate[0]: coordinate[0] + windowSize[1], coordinate[1]: coordinate[1] + windowSize[0]])
 
 def File_imgs_overall(file,dir):
 	# load df for diameter
